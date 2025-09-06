@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  /* font-size: 20px; */
+  line-height: 2;
+  /* background-color: #f8f9fa; */
+}
+
+.nav {
+  background-color: #6A89A7;
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 5px 5px;
+  flex: auto;
+  justify-content: space-between;
+  align-content: center;
+  height: 10vh;
+}
+
+#acceuil{
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  border-bottom: 1px solid black;
+  padding: 1em;
+  align-items: center;
+  flex: auto;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding: 1em;
+  align-items: center;
+  flex: auto;
+  p {
+    max-width: 65ch;
+  }
+}
+
+.project-grid{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 100px;
+  p{
+    max-width: 40ch;
+  }
+}
+
+.project-card > *{
+  margin : 12px 0px;
+}
+
+.form-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.margin{
+  margin-right: 50px;
+}
+img{
+  height: 300px;
+  width: 300px;
+  border-radius: 3px;
+}
+
+footer {
+  border-top: 1px black solid;
+}
+
+h1 {
+  color: #1b213e;
+  text-align: center;
+}
+
+h2.hero {
+  max-width: 50ch;
+}
+
+#hero {
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+nav {
+  /* width: 100vw; */
+  & ul{
+    display: flex;
+    /* border: 1px solid rgb(13, 207, 23); */
+  }
+}
+
+a {
+  li & {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    /* max-width: max-content; */
+    text-align: center;
+  }
+  header & {
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid rgb(218, 48, 48); */
+    margin-right: 15px;
+  }
+  &.action {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #6A89A7;
+    text-decoration: none;
+    /* color: rgba(1, 204, 255, 0.733); */
+    /* margin: 1em 1em; */
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    padding: 0px 1em;
+  }
+}
+
+.action {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #6A89A7;
+  text-decoration: none;
+  /* color: rgba(1, 204, 255, 0.733); */
+  /* margin: 1em 1em; */
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  padding: 0px 1em;
+}
+li {
+  &::marker {
+    content: "";
+  }
+  nav & {
+    margin: 25px;
+  }
+}
+
+p {
+  &.hero {
+    margin-left: 15px;
+  }
+}
+
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.form-group{
+  margin: 12px 12px;
+}
+
+#contact,#competences,#projets,#propos,#acceuil{
+  margin: 12px 12px;
+}
+/* css police */
+.lexend-bold {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lexend-regular {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexend-titles {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.lexend-sub {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

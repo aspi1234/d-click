@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <a href="#top">
+        <h1 class="lexend-bold">Ngatchou Dimitri</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#acceuil" class="lexend-regular">Acceuil</a></li>
+          <li><a href="#propos" class="lexend-regular">A propos</a></li>
+          <li><a href="#projects" class="lexend-regular">Projets</a></li>
+          <li><a href="#competences" class="lexend-regular">Compétences</a></li>
+          <li><a href="#contact" class="lexend-regular">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="acceuil">
+        <div id="hero">
+          <p class="lexend-regular">
+            Je suis, Technicien Réseaux et Télécommunication . <br>Développeur en
+            devenir passionné par le web, les systems d'information et le design
+            !
+          </p>
+          <a href="#projets" class="action">Voir mes projets</a>
+        </div>
+        <figure>
+          <img src="hero.jpeg" alt="hero section" />
+        </figure>
+      </section>
+
+      <section id="propos">
+        <h2 class="lexend-titles">A propos</h2>
+        <div class="container">
+          <div class="propos-text">
+            <p>
+              Je m'appele <span class="lexend-bold">Ngatchou njiatou landry dimitri</span> étudiant en cybersécurité passionné par les
+              outils TIC.Je suis actuellement etudiant en <strong>développement web</strong> et
+              je cherche à ameliorer mes compétences en Javascript,HTML et CSS.J'aime partager mes connaissances
+              avec le monde et je suis persuadé que l'access a internet etudiant devenu accessible a tous seras le
+              biais par lequel je pourrais transmettre mon savoir au reste du monde
+            </p>
+          </div>
+          <figure>
+            <img src="image.jpg" alt="profile picture" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="projets">
+        <h2 class="lexend-titles">Mes projets</h2>
+        <div class="container">
+          <div class="project-grid">
+            <article class="project-card">
+              <h3 class="lexend-sub">Predict AI</h3>
+              <p>
+                Application autonome de dectection d'intrusion au sein d'un réseau
+                assisté par l'IA
+              </p>
+              <a href="#" class="action">Coming Soon</a>
+            </article>
+            <article class="project-card">
+              <h3 class="lexend-sub">PhoneIndex</h3>
+              <p>Plateforme permettent de verifier le status d'un telephone</p>
+              <a href="#" class="action">Coming Soon</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences">
+          <h2 class="lexend-titles">Mes compétences</h2>
+            <div class="container">
+              <div>
+                <h3 class="lexend-sub">Soft skills</h3>
+                <ul>
+                  <li>
+                    <span>Gestion de projet</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>Adaptation</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>Analyse critique</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="lexend-sub">Hard Skills</h3>
+                <ul>
+                  <li>
+                    <span>Linux</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>Reseaux</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <span>cybersecurite</span>
+                    <div class="progression-bar">
+                      <div class="progression-level"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="lexend-titles">Me contacter ?</h2>
+        <div>
+          <form action="#" method="get" class="contact-column">
+            <div class="form-group form-row">
+              <div class="form-field">
+                <label for="prenom">Votre Prenom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Votre prenom" class="margin">
+              </div>
+              <div class="form-field">
+                <label for="prenom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="Votre nom">
+              </div>
+            </div>
+            <div class="form-group form-row">
+              <div class="form-field">
+                <label for="email">Votre Email</label>
+                <input type="email" name="email" id="email" placeholder="john@doe.com" class="margin">
+              </div>
+              <div class="form-field">
+                <label for="prenom">Sujet</label>
+                <input type="text" name="sujet" id="sujet" placeholder="Votre sujet">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-field">
+                <label for="subject-content">Votre message</label>
+                <textarea name="subject-content" id="subject-content" cols="55" rows="5" placeholder="votre message au moins 20 characteres"></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Envoyer" class="action">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Designed with ❤️ by Ngatchou Dimitri with HTML CSS JS</p>
+        <p>Tous droit réservés - 2025</p>
+      </div>
+      <hr width="150px">
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
